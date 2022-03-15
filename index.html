@@ -21,8 +21,7 @@
     <main>
         <div class="pokedex">
             <div class="cards-pokemon">
-                <div class="card-pokemon
-                open type-electric">
+                <div class="card-pokemon open type-electric" id= "card-pikachu">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Pikachu</h2>
@@ -59,7 +58,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon">
+                <div class="card-pokemon type-grass" id="card-bulbasaur">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Bulbasaur</h2>
@@ -95,7 +94,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon">
+                <div class="card-pokemon type-fire" id="card-charmander">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Charmander</h2>
@@ -132,7 +131,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon">
+                <div class="card-pokemon type-water" id="card-gyarados">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Gyarados</h2>
@@ -169,7 +168,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon">
+                <div class="card-pokemon type-ghost" id="card-gengar">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Gengar</h2>
@@ -205,7 +204,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon">
+                <div class="card-pokemon type-dragon" id="card-dragonite">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Dragonite</h2>
@@ -245,27 +244,27 @@
 
             <nav class="listing">
                 <ul>
-                    <li class="pokemon active">
+                    <li class="pokemon active" id= "pikachu">
                         <img src="src/images/cabeca-pikachu.png" alt="pikachu head">
                         <span>Pikachu</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id= "bulbasaur">
                         <img src="src/images/cabeca-bulbasaur.png" alt="bulbasaur head">
                         <span>Bulbasaur</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id= "charmander">
                         <img src="src/images/cabeca-charmander.png" alt="charmander head">
                         <span>Charmander</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id= "gyarados">
                         <img src="src/images/cabeca-gyarados.png" alt="gyarados head">
                         <span>Gyarados</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id= "gengar">
                         <img src="src/images/cabeca-gengar.png" alt="gengar head">
                         <span>Gengar</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id= "dragonite">
                         <img src="src/images/cabeca-dragonite.png" alt="dragonite head">
                         <span>Dragonite</span>
                     </li>
@@ -273,5 +272,7 @@
             </nav>
         </div>
     </main>
+
+    <script src="src/js/index.js"></script>
 </body>
 </html>
